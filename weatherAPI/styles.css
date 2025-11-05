@@ -1,0 +1,80 @@
+:root {
+  --bg: #f5f8ff;
+  --accent: #0077ff;
+  --text: #222;
+  --card-bg: #fff;
+  --radius: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header {
+  text-align: center;
+  background: var(--accent);
+  color: white;
+  padding: 1rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+input, select, button {
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius);
+  border: none;
+  font-size: 1rem;
+}
+
+input, select {
+  border: 1px solid #ccc;
+}
+
+button {
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005bd1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.weather-card {
+  background: var(--card-bg);
+  padding: 1rem;
+  border-radius: var(--radius);
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.weather-card h2 {
+  margin: 0.5rem 0;
+}
+
+.weather-card img {
+  width: 60px;
+  height: 60px;
+}
+
+footer {
+  text-align: center;
+  padding: 0.5rem;
+  color: #666;
+  background: #e9ecf2;
+}
