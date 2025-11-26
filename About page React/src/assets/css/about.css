@@ -1,0 +1,103 @@
+.about-container {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+.about-header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #f5f5f5;
+}
+
+.about-header h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.about-header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.cta-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #6327e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background: #4b1bb3;
+}
+
+/* Mission Section */
+.mission-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.mission-section h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.mission-section p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.mission-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.mission-images img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Team Section */
+.team-section {
+  padding: 50px 20px;
+  background: #fafafa;
+}
+
+.team-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.team-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.team-info {
+  width: 300px;
+}
+
+.team-info h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.team-info p {
+  font-size: 16px;
+  margin-top: 5px;
+}
