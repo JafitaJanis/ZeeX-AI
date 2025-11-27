@@ -15,12 +15,13 @@ export default function AboutPage() {
     document.addEventListener("scroll", revealOnScroll, { passive: true });
     revealOnScroll();
 
+    // Typewriter Effect
     const text = "About Zeex AI";
     const target = document.getElementById("typewriter");
     let index = 0;
 
     function typeNext() {
-      if (index < text.length) {
+      if (target && index < text.length) {
         target.textContent += text.charAt(index);
         index++;
         setTimeout(typeNext, 100);
@@ -65,7 +66,7 @@ export default function AboutPage() {
         </div>
 
         <div className="mission-image">
-          <img src="/images/image1.png" alt="Zeex AI" />
+          <img src="/images/image1.png" alt="Zeex AI Mission" />
         </div>
       </section>
 
@@ -77,9 +78,10 @@ export default function AboutPage() {
           <a
             href="https://www.linkedin.com/in/yadavgauravkumar"
             target="_blank"
+            rel="noopener noreferrer"
             className="card"
           >
-            <img src="/images/image0.jpg" className="team-img" />
+            <img src="/images/image0.jpg" className="team-img" alt="Gaurav Yadav" />
             <h3>Gaurav Yadav</h3>
             <p className="lead">Founder & CEO</p>
           </a>
@@ -87,9 +89,10 @@ export default function AboutPage() {
           <a
             href="https://www.linkedin.com/in/sujit-laware/"
             target="_blank"
+            rel="noopener noreferrer"
             className="card"
           >
-            <img src="/images/image2.png" className="team-img" />
+            <img src="/images/image2.png" className="team-img" alt="Sujit Laware" />
             <h3>Sujit Laware</h3>
             <p className="lead">Chief Technology Officer</p>
           </a>
@@ -97,9 +100,10 @@ export default function AboutPage() {
           <a
             href="https://www.linkedin.com/in/sanidhyak9"
             target="_blank"
+            rel="noopener noreferrer"
             className="card"
           >
-            <img src="/images/image3.png" className="team-img" />
+            <img src="/images/image3.png" className="team-img" alt="Sanidhya Kanhere" />
             <h3>Sanidhya Kanhere</h3>
             <p className="lead">Chief Business Officer</p>
           </a>
@@ -107,9 +111,10 @@ export default function AboutPage() {
           <a
             href="https://in.linkedin.com/in/tarungangwar08"
             target="_blank"
+            rel="noopener noreferrer"
             className="card"
           >
-            <img src="/images/image4.png" className="team-img" />
+            <img src="/images/image4.png" className="team-img" alt="Tarun Gangwar" />
             <h3>Tarun Gangwar</h3>
             <p className="lead">Chief Operating Officer</p>
           </a>
@@ -173,16 +178,35 @@ export default function AboutPage() {
         </div>
 
         <div className="social-icons">
-          <a href="https://www.linkedin.com/company/zeex-ai" target="_blank">
+          <a
+            href="https://www.linkedin.com/company/zeex-ai"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href="https://x.com/ZEEX_AI" target="_blank">
+
+          <a
+            href="https://x.com/ZEEX_AI"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-x-twitter"></i>
           </a>
-          <a href="https://www.instagram.com/zeex_ai/" target="_blank">
+
+          <a
+            href="https://www.instagram.com/zeex_ai/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="https://youtube.com/@zeexai" target="_blank">
+
+          <a
+            href="https://youtube.com/@zeexai"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-youtube"></i>
           </a>
         </div>
