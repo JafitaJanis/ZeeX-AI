@@ -1,0 +1,16 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at 20% 30%, #0a1a33, #020617 70%);
+  color: #ffffff;
+}
+
+/* Smooth rendering */
+html {
+  scroll-behavior: smooth;
+}

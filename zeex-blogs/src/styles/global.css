@@ -1,0 +1,22 @@
+:root {
+  --bg: #0b1a2a;
+  --bg-card: #13233a;
+  --text: #ffffff;
+  --muted: #aab6c5;
+  --brand-1: #00c8ff;
+  --brand-2: #ff4081;
+  --shadow-1: rgba(0, 200, 255, 0.6);
+  --shadow-2: rgba(255, 64, 129, 0.6);
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
